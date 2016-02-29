@@ -1,0 +1,102 @@
+
+
+/*** Main Styles ********************************************/
+
+.navbar-brand {
+	padding: 0;
+}
+
+ul.nav {
+	margin-top: 15px;
+}
+#logo {
+	height: 60px;
+	width: auto;
+}
+
+#background {
+	margin-top: -20px;
+	background: url("images/mexican-plates-main2.jpg");
+	color: #fff;
+	height: 600px;
+	background-size: cover;
+}
+
+#homeContent {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+}
+
+#homeContent h1, p {
+	margin-top:  4em;
+}
+
+
+#filter {
+	height: 600px;
+	background: hsla(0,0%,0%,0.3); 
+}
+
+/****** Menu  **********************************/
+
+#homeMenu {
+	padding: 6%;
+}
+
+#menu-title {
+	margin-bottom: 30px;
+}
+
+/****** About  **********************************/
+
+#about-section {
+	margin-top: 30px;
+}
+
+#about-section2 {
+	padding: 10% 0;
+}
+
+/***** Contact Page *******************************/
+
+.contact-map-container {
+	padding: 25px 0;
+	margin: 0 10px; 
+}
+.form-group {
+	padding-top: 20px;
+}
+
+.map {
+	width: 80%;
+}
+.alert {
+	display: none;
+}
+
+/****** footer styles ********************************/
+footer {
+	background: #6E2C2B;
+	padding: 25px 0; 
+
+}
+
+footer li {
+	list-style: none;
+	padding: 10px 0;
+}
+
+.footerLinks li a{
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+@media (max-width: 767px) {
+	.navbar-header {
+	padding-bottom: 12px;
+	
+	}
+}
